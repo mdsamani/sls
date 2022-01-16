@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Your first Spring application</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+    <body>
+        <p>How many of couple is in array, that sum of them equals to my number?</p>
+        <form action="/sum" method="GET" id="sumForm">
+            <div>
+                <label for="sumField">My number to sum:</label>
+                <input name="myNumber" id="sumField" required="required">
+                <button>Calculate</button>
+            </div>
+        </form>
+        <p>How many of couple is in array, that multiply of them equals to my number?</p>
+        <form action="/multiply" method="GET" id="multiplyForm">
+            <div>
+                <label for="multiplyField">My number to multiply:</label>
+                <input name="myNumber" id="multiplyField" required="required">
+                <button>Calculate</button>
+            </div>
+        </form>
+    </body>
+</html>
